@@ -1,0 +1,8 @@
+{
+    "appName": "ORDER",
+    "port": 4009,
+    "mongo": {
+        "dbHost": "host:27017,host:27018,host:27019",
+        "dbUri": "/order?replicaSet=rs"
+    }
+}

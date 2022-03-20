@@ -1,0 +1,17 @@
+{
+  "name": "order-api",
+  "version": "1.0.0",
+  "description": "nerversitup test",
+  "main": "server.js",
+  "scripts": {
+    "start-local": "set MODE=local&&nodemon server.js"
+  },
+  "author": "mamiew.lali38",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.7",
+    "mongoose-paginate-v2": "^1.6.3"
+  }
+}
